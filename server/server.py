@@ -3,7 +3,7 @@ from flask_restful import Resource, Api
 
 
 from api.swen_344_db_utils import *
-from api.example_api import *
+from api.api import *
 
 app = Flask(__name__) #create Flask instance
 
